@@ -1,0 +1,17 @@
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\bin\Debug\Face_Detection.exe.config
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\bin\Debug\Face_Detection.exe
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\bin\Debug\Face_Detection.pdb
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\bin\Debug\Emgu.CV.xml
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\bin\Debug\Emgu.CV.UI.xml
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\bin\Debug\Emgu.Util.xml
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\obj\Debug\Face_Detection.csprojAssemblyReference.cache
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\obj\Debug\Face_Detection.frmMain.resources
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\obj\Debug\Face_Detection.Properties.Resources.resources
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\obj\Debug\Face_Detection.csproj.GenerateResource.cache
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\obj\Debug\Face_Detection.csproj.CoreCompileInputs.cache
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\obj\Debug\Face_Detection.csproj.CopyComplete
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\obj\Debug\Face_Detection.exe
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\obj\Debug\Face_Detection.pdb
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\bin\Debug\ZedGraph.xml
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\obj\Debug\Face_Detection.exe.config
+C:\Users\Sony\source\repos\Face_Detection\Face_Detection\obj\Debug\Face_Detection.DetectionAndRecognition.resources

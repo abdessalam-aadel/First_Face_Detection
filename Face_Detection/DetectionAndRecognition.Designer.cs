@@ -1,0 +1,140 @@
+﻿namespace Face_Detection
+{
+    partial class DetectionAndRecognition
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtBoxName = new System.Windows.Forms.TextBox();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnStartDetect = new System.Windows.Forms.Button();
+            this.cameraBox = new Emgu.CV.UI.ImageBox();
+            this.btnApply = new System.Windows.Forms.Button();
+            this.btnReturn = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.cameraBox)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(292, 61);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(88, 13);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Your name here :";
+            // 
+            // txtBoxName
+            // 
+            this.txtBoxName.Location = new System.Drawing.Point(291, 77);
+            this.txtBoxName.Name = "txtBoxName";
+            this.txtBoxName.Size = new System.Drawing.Size(172, 20);
+            this.txtBoxName.TabIndex = 9;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(291, 103);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(172, 34);
+            this.btnSave.TabIndex = 8;
+            this.btnSave.Text = "Save Face";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnStartDetect
+            // 
+            this.btnStartDetect.Location = new System.Drawing.Point(291, 12);
+            this.btnStartDetect.Name = "btnStartDetect";
+            this.btnStartDetect.Size = new System.Drawing.Size(172, 42);
+            this.btnStartDetect.TabIndex = 7;
+            this.btnStartDetect.Text = "Start Detection And Recognition";
+            this.btnStartDetect.UseVisualStyleBackColor = true;
+            this.btnStartDetect.Click += new System.EventHandler(this.btnStartDetect_Click);
+            // 
+            // cameraBox
+            // 
+            this.cameraBox.Location = new System.Drawing.Point(12, 12);
+            this.cameraBox.Name = "cameraBox";
+            this.cameraBox.Size = new System.Drawing.Size(273, 258);
+            this.cameraBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.cameraBox.TabIndex = 11;
+            this.cameraBox.TabStop = false;
+            // 
+            // btnApply
+            // 
+            this.btnApply.Location = new System.Drawing.Point(291, 247);
+            this.btnApply.Name = "btnApply";
+            this.btnApply.Size = new System.Drawing.Size(75, 23);
+            this.btnApply.TabIndex = 12;
+            this.btnApply.Text = "Apply";
+            this.btnApply.UseVisualStyleBackColor = true;
+            this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
+            // 
+            // btnReturn
+            // 
+            this.btnReturn.Location = new System.Drawing.Point(388, 247);
+            this.btnReturn.Name = "btnReturn";
+            this.btnReturn.Size = new System.Drawing.Size(75, 23);
+            this.btnReturn.TabIndex = 13;
+            this.btnReturn.Text = "Return";
+            this.btnReturn.UseVisualStyleBackColor = true;
+            this.btnReturn.Click += new System.EventHandler(this.btnReturn_Click);
+            // 
+            // DetectionAndRecognition
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(475, 287);
+            this.Controls.Add(this.btnReturn);
+            this.Controls.Add(this.btnApply);
+            this.Controls.Add(this.cameraBox);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtBoxName);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnStartDetect);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Name = "DetectionAndRecognition";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "DetectionAndRecognition";
+            ((System.ComponentModel.ISupportInitialize)(this.cameraBox)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtBoxName;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnStartDetect;
+        private Emgu.CV.UI.ImageBox cameraBox;
+        private System.Windows.Forms.Button btnApply;
+        private System.Windows.Forms.Button btnReturn;
+    }
+}
